@@ -17,15 +17,6 @@ body {
     background-color: var(--white);
 
 }
-
-.container {
-    max-width: 1240px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-    overflow: hidden;
-}
-
 :root {
     --white: rgb(255, 255, 255);
     --gray: rgb(128, 128, 128);
@@ -34,120 +25,13 @@ body {
     --button-color: #56565695;
     --button-type: #333;
 }
-
-.navbar {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 50px 0; */
-    /* border: 2px solid white; */
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    position: absolute;
-    margin: 0px;
-    z-index: 99;
-
-}
-
-.navbar-brand {
-    display: flex;
-    align-items: center;
-}
-
-.toggler {
-    display: none;
-    color: white;
+.container {
+    max-width: 1240px;
     width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
 }
-
-ul {
-    list-style: none;
-}
-
-.nav-list {
-    margin-left: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-list li {
-    /* display: inline-block;
-    justify-content: space-evenly; */
-    margin-left: 76PX;
-    /* margin-top: 25px; */
-    font-family: var(--font-text);
-}
-
-.nav-list li a {
-    color: var(--white);
-    font-size: 16px;
-}
-
-.nav-list li a:hover {
-    color: var(--gray);
-}
-
-.logo-text {
-    font-size: 30px;
-    font-family: "DM Serif Display", serif;
-    color: var(--white);
-    position: relative;
-    left: 7px;
-}
-
-.logo img {
-    height: 10%;
-    width: 10%;
-}
-
-a {
-    text-decoration: none;
-    display: inline-block;
-    color: var(--white);
-}
-
-.banner {
-    height: 90vh;
-    background-image: url(../images/Frame\ 2.png);
-    background-position: center;
-    background-size: cover;
-    padding: 100px 0;
-    position: relative;
-}
-
-.banner_content {
-    max-width: 500px;
-    color: white;
-}
-
-.banner_padding {
-    padding: 200px 0;
-
-}
-
-.banner_content h1 {
-    width: 690px;
-    font-size: 75px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    /* margin-top: 30px; */
-}
-
-.banner_content p {
-    font-size: 16px;
-    margin-bottom: 24px;
-    padding: 5px 5px;
-    line-height: 1.5;
-    font-family: var(--font-text);
-}
-
 .section_padding {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -187,7 +71,114 @@ img {
     height: auto;
     object-fit: cover;
 }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--white);
+}
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 50px 0; */
+    /* border: 2px solid white; */
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+    margin: 0px;
+    z-index: 99;
+
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.toggler {
+    display: none;
+    color: white;
+    width: 100%;
+}
+.nav-list {
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list li {
+    /* display: inline-block;
+    justify-content: space-evenly; */
+    margin-left: 76PX;
+    /* margin-top: 25px; */
+    font-family: var(--font-text);
+}
+
+.nav-list li a {
+    color: var(--white);
+    font-size: 16px;
+}
+
+.nav-list li a:hover {
+    color: var(--gray);
+}
+
+.logo-text {
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+    color: var(--white);
+    position: relative;
+    left: 7px;
+}
+
+.logo img {
+    height: 10%;
+    width: 10%;
+}
+.banner {
+    height: 90vh;
+    background-image: url(../images/Frame\ 2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+
+.banner_content {
+    max-width: 500px;
+    color: white;
+}
+
+.banner_padding {
+    padding: 200px 0;
+
+}
+
+.banner_content h1 {
+    width: 690px;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    /* margin-top: 30px; */
+}
+
+.banner_content p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding: 5px 5px;
+    line-height: 1.5;
+    font-family: var(--font-text);
+}
 .trynow {
     background-color: var(--button-color);
     color: var(--white);
@@ -202,9 +193,6 @@ img {
     background-color: transparent;
     border: 1px solid var(--white);
 }
-
-
-
 .banner_dropdown {
     border: none;
     border-radius: 60px;
